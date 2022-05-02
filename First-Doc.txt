@@ -1,2 +1,38 @@
-Java is awesome
-Android is interesting
+configuration set up
+
+git config --global user.email "youremail@domain.com"
+
+Check the email -> 
+git config user.email
+
+git config --global user.name "Your Name"
+
+Check the name ->
+git config user.name
+
+-------------------
+Initialize a Git Repository
+git init
+
+Add files to the repository (in the local System)
+Step1 -> get the files to the staging area
+git add <file1Name> <file2Name> ...
+git add .
+	how to remove files from staging area
+	-> git rm --cached <file1Name> ...
+
+Step2-> get the files to the repository from staging area
+git commit -m "Commit message"
+
+--------------
+Check commit log
+
+git log
+
+	- Commit id (40 char - SHA1 key)
+	- Date and time of the commit
+	- Author of the commit
+	- The commit message
+
+git log --oneline
+------------------------
